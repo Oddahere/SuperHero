@@ -1,1 +1,3 @@
 # SuperHero
+
+npm start
