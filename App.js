@@ -3,16 +3,6 @@ import Navbar from './Navbar';
 import SearchBar from './SearchBar';
 import SearchResults from './SearchResults';
 
-//main server
-//should be in localhost:3000
-
-//cd homework-3-oddahere 
-//"npm start" in terminal
-//for example "cd desktop -> cd homework-3-oddahere -> NPM start"
-
-//installing react on terminal and running an API
-//https://reactjs.org/docs/create-a-new-react-app.html
-
 function App() {
   const [searchText, setSearchText] = useState('');
   const [superheroData, setSuperheroData] = useState([]);
